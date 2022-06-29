@@ -97,8 +97,6 @@ func Parse(dest interface{}) *Schema {
 }
 
 func main() {
-	schema := Parse(User{"tayue", 11})
-    fmt.Printf("schema.Model:%+v\n", schema.Model)
+	schema := Parse(User{"tayue", 30})
 	fmt.Printf("schema:%+v\n", schema)
-
 }

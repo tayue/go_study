@@ -1,1 +1,1 @@
-# go_study demo dd 
+# go_study
